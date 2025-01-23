@@ -1,5 +1,4 @@
 
-
 public class Main{
     public static void main(String[] args) {
         
@@ -7,5 +6,7 @@ public class Main{
         System.out.println("Hello world");
         System.out.println("My name is shikhil saxena");
         System.out.println("Add new changes on my file");
+        Student student = new Student();
+        student.display();
     }
 }
